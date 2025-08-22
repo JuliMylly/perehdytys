@@ -21,3 +21,21 @@ p {
     font-size: 30px;
     font-weight: bold;
 }
+h1 {
+    text-shadow: 3px 3px 5px purple;
+}
+/*box 1 */
+.box1 {
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+/*box 2*/
+.box2 {
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px yellow ;
+}
+
