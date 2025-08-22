@@ -1,0 +1,23 @@
+div {
+    padding: 6px 13px;
+    border: 3px blueviolet;
+    border-radius: 13px;
+}
+.mydiv {
+    padding: 6px 12px;
+    border: 2px blueviolet;
+    border-radius: 12px;
+}
+
+
+
+p {
+    color: blue;
+    text-align: center;
+    text-align: justify;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
