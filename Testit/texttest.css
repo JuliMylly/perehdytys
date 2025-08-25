@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background: grey;
+    color: rgb(89, 3, 3);
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    
+}
+.h3{
+    color: darkred
+}
+div{
+    font-size: 15px;
+}
+#pp{
+    font-size: 35px;
+    font-style: normal;
+color: black;
+text-decoration-line: underline;
+    
+}
