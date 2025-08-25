@@ -1,14 +1,58 @@
 body {
     margin: 0px;
     box-sizing: border-box;
+    
 }
 div{
-    padding: 10px 20px;
-    border: 15px cornflowerblue;
-    border-radius: 12px;
-    margin: 100px;
+    padding: 20px 15px;
+    border: 10px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    font-style: italic;
+    font-size: x-large;
+    
 
-   
+}  
+
+.box1 {
+    background-color: lightblue;
+    
+}
+.box2 {
+    background-color: lightyellow;
 
 }
-    
+.box3 {
+    background-color: lightblue;
+
+}
+.box4 {
+    background-color: lightyellow;
+    visibility: hidden;
+}
+.box5 {
+    background-color: lightblue;
+}
+.box6 {
+    background-color: lightyellow;
+}
+.box7 {
+    background-color: purple;
+}
+.box8 { background-color: lightyellow;
+}
+#laatikko {
+    font-size: 50px;
+    color: aqua;
+    padding: 50px;
+    height: 200px;
+    width: 900px;
+    border-radius: 20px;
+    background-color: solid black;
+    text-align: center;
+
+
+}
