@@ -1,0 +1,24 @@
+
+body {
+    margin: 0px;
+    
+
+
+}
+p {
+    font: 800px;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+div {
+    background-image: url(kuvat/linna.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+       
+}
+
+.mydiv {
+    background-image: url(Kuvat/linna.jpg);
+}
