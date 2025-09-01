@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.subdiv {
+    height: auto;
+    width: auto;
+    padding: 1em;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    background-color:purple;
+    
+    
+    
+}
+
+.mainflex {
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    font-size:x-large;
+
+}
+
+.mainflex ul{
+    list-style: none;
+    margin: 0;
+    padding: 200px;
+    display: flexbox;
+    justify-content:start;
+
+}
+
+.mainflex li {
+    margin: O 15px;
+}
+ 
+.mainflex a{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+
+}
+
+.mainflex a:hover {
+    background-color: rgb(205, 27, 196);
+    border-radius: 5px;
+}
