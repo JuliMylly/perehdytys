@@ -56,12 +56,13 @@ h3{
     padding: 50px 50px;
     border-radius: 15px;
     width: 10em;
-    text-align: center;
+    text-align: center ;
     font-size: 2em;
     background-image: url(kuvat1/sukka.jpg) ;
-    background-position: center;
-    background-size: 100px 100px;
+    background-position: center ;
+    background-size: contain;
     background-repeat: no-repeat;
+
     
 }
 h4{
@@ -73,10 +74,26 @@ h4{
     font-size: 2em;
     background-image: url(kuvat1/tennis.jpg) ;
     background-position: center;
-    background-size: 100px 100px;
+    background-size: contain;
     background-repeat: no-repeat;
+    
 }
 
 h5{
+    border: 2px solid black;
+    padding: 50px 50px;
+    border-radius: 15px;
+    width: 10em;
+    text-align: center;
+    font-size: 2em;
+    background-image: url(kuvat1/nilkka.jpg) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     
+
+}
+.divine{
+    flex-direction: row;
+    display: flex;
 }
