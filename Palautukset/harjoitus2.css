@@ -3,6 +3,10 @@ background-color: #111010;
 border: solid;
 width: auto;
 height: auto;
+border-radius: 15px;
+padding: auto;
+
+
 
 }
 h1{
@@ -10,6 +14,9 @@ h1{
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px pink;
+    background-image: url(kuvat1/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
     
 }
 
@@ -77,6 +84,7 @@ h4{
     background-size: contain;
     background-repeat: no-repeat;
     
+    
 }
 
 h5{
@@ -96,4 +104,22 @@ h5{
 .divine{
     flex-direction: row;
     display: flex;
+}
+
+.navi:hover {
+    color: rebeccapurple;
+    text-decoration: underline;
+    cursor:crosshair
+}
+.foot{
+    border: 3px solid rgb(238, 234, 234);
+    padding: 50px 50px;
+    margin: 300px 400px;
+    text-align: start;
+    background-color: #111010;
+    color: white;
+    border-radius: 15px;
+}
+body{
+    background-color: #8f2929;
 }
