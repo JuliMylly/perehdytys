@@ -11,7 +11,6 @@ justify-content: center;
 border: 5px purple;
 border-radius: 5px;
 
-
 }
 
 body{
@@ -24,7 +23,11 @@ body{
 .navi {
 background: #111010;
 }
-
+.navi img{
+    width: 40px;
+    height: 40px;
+    
+}
 .navi ul {
     list-style: none;
     display: flex;
