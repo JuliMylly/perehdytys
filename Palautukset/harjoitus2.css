@@ -21,7 +21,7 @@ body{
 }
 
 .navi {
-background: #111010;
+background: #000000;
 }
 .navi img{
     width: 40px;
@@ -94,7 +94,7 @@ main{
     border: 2px solid black;
     text-align: center;
     color: white;
-    background-color: #111010;
+    background-color: #a60404;
     text-shadow: 2px 2px 5px pink;
 }
 
@@ -115,12 +115,17 @@ body{
 }
 
 .arvostus article{
-    border-top: 1px solid white;
+    border-top: 3px solid rgb(0, 0, 0);
     padding: 0.5rem  0;
+    border-radius: 10px;
+    margin:auto ;
+    color: indigo;
+    text-shadow: 5px black;
+    
 
 }
 .isosukka img{
-    max-width: 300px;
+    max-width: 400px;
     display: block;
     margin-bottom: 1rem;
 }
