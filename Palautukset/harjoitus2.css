@@ -113,3 +113,40 @@ main{
 body{
     background-color: #8f2929;
 }
+
+.arvostus article{
+    border-top: 1px solid white;
+    padding: 0.5rem  0;
+
+}
+.isosukka img{
+    max-width: 300px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    min-height: 100px;
+}
+.palaute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    
+
+}
+.palaute form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 2rem;
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 10px;
+    box-shadow: 2px 9px 16px purple;
+    background: rgb(14, 14, 14);
+    
+}
+.otsikko{
+    align-items: baseline;
+}

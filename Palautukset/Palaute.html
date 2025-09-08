@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title> Palaute </title>
+        <link rel="stylesheet" href="harjoitus2.css">
+    </head>
+    <body>
+        <header class="Alku">
+            <img src="kuvat1/logo.jpg">
+             <h1 class="Alku">Pirkkalan Sukka </h1>
+        </header>
+        <nav class="navi">
+            <ul>
+        <li><a href="#"> Pikku Sukat </a> </li>
+        <li><a href="#"> Keski Sukat </a> </li>
+        <li><a href="#"> Isot Sukat </a> </li>
+        <li><a href="#"> Mega Sukat </a> </li>
+        <li><a href="#"> Tietoja meistä </a> </li>
+        <li><a href="#"> Ostokori </a> </li>
+        <li class="kuvakkeet">
+            <a href="#"> <img src="Kuvat1/haku.png" alt="haku"> </a>
+                <a href="#"> <img src="Kuvat1/ostokori1.png" alt="ostokori"> </a>
+    </li>
+            </ul>
+        </nav>
+        <main class="palaute">
+        <h2 class="otsikko"> Palutelomake </h2>
+        <form>
+            <label for="nimi">Nimi</label>
+            <input type="text" id="nimi" name="nimi" required>
+            <label for="sahkoposti">Sähköposti</label>
+            <input type="email" id="email" name="email" required>
+            <label for="puhelin">Puhelinnumero </label>
+            <input type="tel" id="puhelin" name="puhelin" required>
+            <label for="aihe"> Palautteen aihe </label>
+            <select id="aihe" name="aihe">
+                <option>sivut</option>
+                <option> sukat </option>
+                <option> Liian kalliit hinnat </option>
+            </select>
+            <label for="palaute">Palautteesi:</label>
+            <textarea id="palaute" name="palaute" required> </textarea>
+            <p> Soitamme joskus takaisin </p>
+            <input type="radio" id="Soitto" name="soitto joskus" value="soitto joskus" checked>
+            <label for="puhelin">puhelin</label>
+            <button type="submit"> lähetä </button>
+            <button type="reset"> takaisin </button>
+        </form>
+        </main>
+        <footer class="foot">
+            <p><a href="#">Tietoja meistä </a> </p>
+            <p><a href="#"> Yhteystiedot </a> </p>
+                <p> Copyright by J.M 2025 </p>
+                <nav>
+                <a href="harjoitus2.html">Etusivulle</a>
+                </nav>
+            </footer>
+            
+    </body>
+</html>
+
