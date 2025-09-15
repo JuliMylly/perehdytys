@@ -32,6 +32,7 @@ body {
     transition: transform 0.3s;
     
     
+    
 
 }
 .caption{
@@ -74,6 +75,19 @@ body {
     background: #0a0a0a;
     padding: 1rem 3rem;
  }
- .kuva img{
+.kuva img{
     
- }
+    max-width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 8rem;
+    font-size: 25px;
+    font-family:monospace;
+    text-underline-position: below;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    animation: pulse 2s infinite;
+    transition: all 0.3s ease; 
+}
